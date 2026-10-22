@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/telegram"
+  to = "/.netlify/functions/telegram"
+  status = 200
